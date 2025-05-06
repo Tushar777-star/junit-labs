@@ -10,12 +10,12 @@ public class BankAccountTest {
         assertEquals(1000.0, account.getBalance());  // This test will fail because BankAccount does not exist
     }
     
-    @Test
-    void testDeposit() {
-        BankAccount account = new BankAccount("12345", 1000.0);
-        account.deposit(500.0);  // Deposit method does not exist yet
-        assertEquals(1500.0, account.getBalance());  // This test will fail
-    }
+//    @Test
+//    void testDeposit() {
+//        BankAccount account = new BankAccount("12345", 1000.0);
+//        account.deposit(500.0);  // Deposit method does not exist yet
+//        assertEquals(1500.0, account.getBalance());  // This test will fail
+//    }
     @Test
     void testDeposit() {
         BankAccount account = new BankAccount("12345", 1000.0);

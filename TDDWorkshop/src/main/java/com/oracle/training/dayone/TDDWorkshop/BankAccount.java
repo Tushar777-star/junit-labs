@@ -12,9 +12,9 @@ public class BankAccount {
         return balance;
     }
     
-    public void deposit(double amount) {
-        balance += amount;
-    }
+//    public void deposit(double amount) {
+//        balance += amount;
+//    }
     
     public void deposit(double amount) {
         if (amount <= 0) throw new IllegalArgumentException("Deposit amount must be positive");
